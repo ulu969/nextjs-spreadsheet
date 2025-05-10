@@ -8,6 +8,13 @@
       "when": 1746762213531,
       "tag": "0000_black_patriot",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1746842047286,
+      "tag": "0001_cold_millenium_guard",
+      "breakpoints": true
     }
   ]
 }

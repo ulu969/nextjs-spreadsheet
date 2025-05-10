@@ -3,14 +3,14 @@ import { redirect } from 'next/navigation'
 
 import { auth } from '@/lib/auth'
 
-import SignupForm from '@/app/signup/form'
+import LoginForm from '@/app/login/form'
 
-export default async function SignupPage() {
+export default async function LoginPage() {
   const session = await auth.api.getSession({ headers: await headers() })
 
   if (session) {
     redirect('/')
   }
 
-  return <SignupForm />
+  return <LoginForm />
 }
